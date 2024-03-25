@@ -114,7 +114,7 @@ describe("Iteration 5 | Find Elements", () => {
       expect(typeof doesWordExist).toBe("function");
     });
 
-    it("should return null if receives an empty array when called", () => {
+    it("should return null when called with an empty array", () => {
       expect(doesWordExist([])).toBeNull();
     });
 
